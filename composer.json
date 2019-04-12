@@ -1,0 +1,21 @@
+{
+    "name": "purplebooth/counter",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Billie Thompson",
+            "email": "billie@billiecodes.com"
+        }
+    ],
+    "require": {
+        "opencensus/opencensus-exporter-stackdriver": "^0.1.0",
+        "php" : "^7.3",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.11.5"
+    },
+    "autoload": {
+        "psr-4": {"Armakuni\\Demo\\PhpInserter\\": "src/"}
+    }
+}
